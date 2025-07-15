@@ -25,4 +25,7 @@ $git init
 
 將現有的倉儲複製到電腦中
 ---
-若想要取得現有倉儲中的專案，可以使用`git clone`將gitbub上的專案複製到主機中
+若想要取得現有倉儲中的專案，可以使用`git clone`將gitbub上的專案複製到主機中，例如下方案例，透過`git clone`+專案的`url`即可
+```sh
+https://github.com/terry105040819/DADA2_pipeline.git
+```
