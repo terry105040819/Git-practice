@@ -20,21 +20,39 @@ user.name=your_userID
 #### 創建一個新資料夾
 作為練習我們可以先創一個新資料夾
 ```sh
-mkdir git_test
-cd git_test
+$mkdir git_test
+$cd git_test
 ```
 
 如果想使用git追蹤現有專案，只須進入該專案資料夾並執行
 ```sh
 $git init
 ```
-如果資料夾不是空的，可以使用`git add`指令來追蹤你想追蹤的檔案，也可以使用`git add .`追蹤資料夾內所有檔案，最後在執行`git commit`進行提交
-
 #### 檢查你的檔案狀態
+在倉儲中新增或刪除檔案後，先利用`git status`查詢更改項目與那些項目還沒追蹤
+```sh
+(base)$git status
 
+On branch main
 
+No commits yet
 
+Untracked files:
+(Use "git add <file>..." to include in what will be committed)
+    folder1/
+    folder2/
+```
 
+如果要追蹤這些項目可以使用`git add`並將這些項目輸入，也可以使用`git add .`將所有項目加入追蹤
+```sh
+將所有檔案加入追蹤
+$git add
+
+僅將指定檔案加入追蹤
+$git add folder3
+``` 
+
+#### 將檔案
 
 
 
